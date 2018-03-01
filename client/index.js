@@ -25,7 +25,7 @@ const asyncAwait = new AsyncAwait();
 // promiseChain.errorHandling();
 // asyncAwait.errorHandling();
 
-// Interesting async await case
+// Call when you use async in the api
 // asyncAwait.getMoviesFromApi();
 
 

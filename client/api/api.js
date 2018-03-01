@@ -69,6 +69,11 @@ export default class Api {
             const movies = responseJson.movies;
             console.log("responseJson.movies is: ", movies);
             //but it's still returned as a promise so you need to use async / await when calling it
+            /*
+            * When an async function is called, it returns a Promise.
+            * When the async function returns a value, the Promise will be resolved with
+            * the returned value.  When the async function throws an exception or some value,
+            * the Promise will be rejected with the thrown value.*/
             return movies;
     }
 
